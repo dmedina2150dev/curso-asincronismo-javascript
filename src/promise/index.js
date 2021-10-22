@@ -3,7 +3,7 @@ const somethingWillHappen =  () => {
         if (true) {
             resolve('Hey!');
         } else {
-            reject('Whoooops!');  
+            reject('Whoooops!');
         }
     });
 };
