@@ -72,3 +72,29 @@ Transpilar
 Transpilar es generar a partir de código en un lenguaje código en otro lenguaje. Es decir, un
 programa produce otro programa en otro lenguaje cuyo comportamiento es el mismo que el
 original.
+
+
+Ventajas y Desventajas
+
+- callback
+    - Garantizamos que tenemos una funcion dentro de otra funcion que se van a ejecutar
+    - Corre hasta en navegadores viejos
+
+    - Anidacion de elementos callback help
+    - manejo de errores tedioso
+
+- Promise
+    - Facilmente enlazable con siguientes llamados
+    - Es poderoso, nos permine trabajar con asincornismo
+
+    - No maneja execpciones solo un catch al final
+    - Requiere un polifyle para funcionar en los navegadores (se debe transpilar con herramientas como Babel para que funcione en todos los navegadores)
+
+- Async & Aweit
+    - Podemos abrir un try/ catch donde podemos manejar facilmente errores.
+    - Son mas faciles de leer
+
+    - El esperar por cada uno de los llamados
+    - tambien requieres un polifyle
+
+
